@@ -12,6 +12,9 @@ RUN mkdir ./workspace &&\
     git config --global user.email youremail@email.com &&\
     git clone https://github.com/Rypeur/H3-Big-data.git
 
+RUN virtualenv -p python3 H3-Big-data
+RUN /bin/bash -c "source H3-Big-data/bin/activate"
+
 COPY . /workspace
 WORKDIR ./workspace
 

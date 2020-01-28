@@ -8,5 +8,6 @@ Repo contenant le code python des cours de Big Data
     - docker build -t python-big_data .
     - docker run -it -p 8000:8000 python-big_data:latest
 - TP du Lundi 27/01/2020 Terminé et Rendu
+- TP du Mardi 28/01/2020 Terminé et Rendu
 
 Duval Quentin
